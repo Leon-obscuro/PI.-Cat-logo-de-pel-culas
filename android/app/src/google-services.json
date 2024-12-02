@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "868252913191",
+    "project_id": "proyecto-flutter3",
+    "storage_bucket": "proyecto-flutter3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868252913191:android:6dc1a4841a6c4a08dc4802",
+        "android_client_info": {
+          "package_name": "com.example.leo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZW0nXtatdvrj6DZxZnm5dEalCcSCBNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

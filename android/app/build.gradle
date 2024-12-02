@@ -1,0 +1,26 @@
+// android/app/build.gradle
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33  // Ajusta esto según la versión que estés usando
+
+    defaultConfig {
+        applicationId "com.example.leo_app"  // Reemplaza con tu ID de paquete
+        minSdkVersion 21  // O la versión mínima que estés usando
+        targetSdkVersion 33  // Ajusta esto según la versión que estés usando
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            // Asegúrate de tener configuradas las claves de tu keystore para producción si estás publicando
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+// Aplica el plugin para Google services
+apply plugin: 'com.google.gms.google-services'
